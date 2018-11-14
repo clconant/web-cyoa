@@ -20,18 +20,12 @@ function checkAnswers(answer) {  // Function names match story scenes. Replace w
     // }
 }
 
+function theMan(){
+	story("You are wandering along a sidewalk at midnight in near pitchblack with only streetlights illuminating the path that you have chosen. You have plenty of time that you would want to waste but out of the corner of your eye you see a shadown of a man leaning against a building asking you to go talk with him. What do you want to do?")
+	choices = ["Walk Away", "Walk to him", "Call the police"];
+	answer = setOptions(choices);
 
-/* function town(){  // FIRST STORY SCENE - WELCOMES PLAYER
- * var name = prompt("what is your name?");
- * story("One day you are on your way home from school and you hear a whisper coming from a dark forest you never remember seeing before\
- * \nCome here " + name + " Come here\
- * \nYou can't place the voice, but there is something familiar about it. What do you do?");
- * 
- * choices = ["Think some more", "go into the forest", "ignore it and go home"];
- * answer = setOptions(choices);
- * }
- */ 
-  
+
 /* function forest() {  // HOW TO SET A SCENE
  * story("There is a house made of candy\
  * \nThere is a fruit vender\
@@ -43,37 +37,3 @@ function checkAnswers(answer) {  // Function names match story scenes. Replace w
  * }
  */ 
  
-/* function spinInCircle() { // HOW CHANGE VALUE IF REPEATED CHOICE
- *    spin = spin + 1;
- *    if (spin == 3) {
- *         story("Why are you doing that?\
- *         \n It makes me a little nauseous just to watching you\n\n");
- *         forest();
- *     } else if (spin == 4) {
- *         story("Seriously, please stop\
- *         \nI can't keep watching this\n\n");
- *        forest();
- *    } else if (spin == 5) {
- *         story("Oh god I have to go\n\n");
- *         forest();
- *    } else if (spin > 5) {
- *         story("We are sorry but the narrator for this bit went home sick.\n\n");
- *         forest();
- *     } else {
- *        story("You let you arm fly freely at your side as you spin in a circle.\
- *         \nAround and around you go as the world blurs in front of you\
- *         \nyou get dizzy and fall to the ground\
- *         \nyou take a moment to gather your thoughts then you stand back up\n\n");
- *         forest();
- *     }
- * }
- */
- 
-/* function stayQuite() { // SEQUENCE OF MESSAGES WITH TIME DELAYS BETWEEN
- * messages=["so your too good to talk to me huh",
- *         "big old person too proud to talk to a pixie",
- *         " you hear the pixie fly away in disgust"];
- *    delayText(messages, 3000, field);
- * 
- * } 
- */
