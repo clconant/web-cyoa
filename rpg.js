@@ -24,6 +24,13 @@ function theMan(){
 	story("You are wandering along a sidewalk at midnight in near pitchblack with only streetlights illuminating the path that you have chosen. You have plenty of time that you would want to waste but out of the corner of your eye you see a shadown of a man leaning against a building asking you to go talk with him. What do you want to do?")
 	choices = ["Walk Away", "Walk to him", "Call the police"];
 	answer = setOptions(choices);
+}
+
+function cornerOfTheBuilding(){
+	story("You decide to go talk with the creepy guy that told you to come over to him at midnight while you were walking, he stares you down as you slowly approach towards him and escape the streetlights illumination")
+	choices = ["Go home", "Run into the forest", "Run into the building"];
+	answer = setOptions(choices);
+}
 
 
 /* function forest() {  // HOW TO SET A SCENE
