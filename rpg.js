@@ -32,6 +32,23 @@ function cornerOfTheBuilding(){
 	answer = setOptions(choices);
 }
 
+function wildNightmares(){
+	story("You chose to talk with the guy HOW WISE you guys have a good 30 minute conversation about your favorite sports teams and the sports you guys like the best")
+	choices = ["Enter now", "Tell mom"];
+	answer = setOptions(choices);
+}
+
+function walkingToTheBack(){
+	story("The guy starts walking away and you follow him around to the back of the building where there's no cameras or light")
+	choices = ["Run away", "Fight Him", "Call the police"];
+	answer = setOptions(choices);
+}
+
+function gettingDraggedAway(){
+	story("")
+	choices = ["","","",];
+	answer = setOptions(choices);
+
 
 /* function forest() {  // HOW TO SET A SCENE
  * story("There is a house made of candy\
